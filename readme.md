@@ -1,10 +1,40 @@
 # GroundMotionStudio
 
-A comprehensive Python toolkit for visualizing, analyzing, and manipulating ground motion records from the PEER NGA Database.
+A Python toolkit for visualizing, analyzing, and manipulating ground motion records from the PEER NGA Database.
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
 
 
+## 🚀 Quick Start
+
+### Download Standalone Executable (Windows)
+**No Python installation required!**
+
+📥 **[Download GroundMotionStudio.exe](https://github.com/alinadimm/GroundMotionStudio/raw/master/GroundMotionStudio.exe)**
+
+Simply download and run the executable - all dependencies are included.
+
+---
+
+## Screenshots
+
+### Main Interface
+![GUI Interface](images/gui.png)
+*Simple and intuitive interface for loading and analyzing ground motion records*
+
+### Time History Plots
+![Time Histories](images/time-histories.png)
+*Acceleration, velocity, and displacement plots with rotation support*
+
+### Component Compass
+![Compass View](images/compass.png)
+*Visualize original and rotated component orientations*
+
+### Station Map
+![Station Map](images/map.png)
+*Interactive map with fault locations and manual angle measurement tool*
+
+---
 ## Features
 
 ### 📊 Time History Visualization
