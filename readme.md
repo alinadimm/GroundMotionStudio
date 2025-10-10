@@ -3,7 +3,7 @@
 A comprehensive Python toolkit for visualizing, analyzing, and manipulating ground motion records from the PEER NGA Database.
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 
 ## Features
 
@@ -44,11 +44,16 @@ A comprehensive Python toolkit for visualizing, analyzing, and manipulating grou
 - Python 3.7 or higher
 - pip package manager
 
-### Required Packages
-```bash
-pip install numpy matplotlib requests pillow
-```
+### Station Maps
+- **Station location maps** are retrieved from [Jack W. Baker's website](https://www.jackwbaker.com/pulse_classification_v2/Maps/)
+- Maps are © Jack W. Baker and are fetched dynamically when using the "Show Map" feature
+- Map legend and fault information are included in the visualization
+- **Attribution is automatically displayed** on map plots as "Map source: jackwbaker.com"
 
+### Usage of Maps
+When publishing results that include maps from this tool, please acknowledge:
+> Station maps courtesy of Jack W. Baker (https://www.jackwbaker.com)
+s
 ### Dependencies
 - **numpy**: Numerical computations and array operations
 - **matplotlib**: Plotting and visualization
