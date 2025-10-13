@@ -10,7 +10,9 @@ A Python toolkit for visualizing, analyzing, and manipulating ground motion reco
 ### Download Standalone Executable (Windows)
 **No Python installation required!**
 
-## 🚀 Download & Installation
+📥 **[Download GroundMotionStudio.exe](https://github.com/alinadimm/GroundMotionStudio/raw/master/GroundMotionStudio.exe)**
+
+Simply download and run the executable - all dependencies are included.
 
 ### Windows Security Warning (IMPORTANT)
 
@@ -29,7 +31,6 @@ Windows may show a security warning because this executable is not code-signed. 
 If you see "Windows protected your PC":
 1. Click **"More info"**
 2. Click **"Run anyway"**
-
 ---
 
 ## Screenshots
