@@ -18,19 +18,43 @@ Simply download and run the executable - all dependencies are included.
 
 Windows may show a security warning because this executable is not code-signed. This is **normal** for open-source tools. Here's how to run it safely:
 
-#### Method 1: Download from Releases
+### Method 1: Download Executable (Windows)
+
+**Download:**
 1. Go to **[Releases](https://github.com/alinadimm/GroundMotionStudio/releases/latest)**
-2. Download `GroundMotionStudio.exe` from Assets
-3. **Right-click** the downloaded file → **Properties**
-4. Check **"Unblock"** at the bottom → Click **OK**
-5. Double-click to run
+2. Download `GroundMotionStudio.exe` from **Assets**
 
-![Unblock File](https://user-images.githubusercontent.com/example/unblock.png)
+**If Windows blocks the executable, try one of these methods:**
 
-#### Method 2: Windows SmartScreen Bypass
-If you see "Windows protected your PC":
-1. Click **"More info"**
-2. Click **"Run anyway"**
+#### Option A: Unblock the File (Recommended)
+1. Right-click the downloaded `.exe` file → **Properties**
+2. At the bottom of the **General** tab, look for **Security** section
+3. If you see an **"Unblock"** checkbox, check it
+4. Click **OK** to save changes
+5. Double-click the `.exe` to run
+
+**Note:** The "Unblock" option only appears if Windows marked the file as downloaded from the internet.
+
+---
+
+#### Option B: Run as Administrator
+1. Right-click the `.exe` file → **Run as administrator**
+2. If prompted by User Account Control (UAC), click **Yes**
+3. If Windows SmartScreen appears:
+   - Click **"More info"**
+   - Click **"Run anyway"**
+
+---
+
+#### Option C: Change File Permissions (Advanced - Not Recommended)
+⚠️ **Warning:** Only use this if Options A and B don't work. Be cautious when changing file permissions.
+
+1. Right-click the `.exe` file → **Properties**
+2. Go to the **Security** tab
+3. Click **Edit**
+4. Select your username or group
+5. Check **"Allow"** for **"Read & execute"** permission
+6. Click **OK** → **OK**
 ---
 
 ## Screenshots
