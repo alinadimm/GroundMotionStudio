@@ -1407,12 +1407,12 @@ class GroundMotionGUI:
         ttk.Button(main_frame, text="Browse", command=self.browse_directory).grid(row=1, column=2, padx=(5, 0), pady=5)
 
         # Time range inputs
-        ttk.Label(main_frame, text="X Start (sec):").grid(row=2, column=0, sticky="e", padx=(0, 5), pady=5)
+        ttk.Label(main_frame, text="t start (sec):").grid(row=2, column=0, sticky="e", padx=(0, 5), pady=5)
         self.xstart_entry = ttk.Entry(main_frame, width=15)
         self.xstart_entry.grid(row=2, column=1, sticky="w", pady=5)
         self.xstart_entry.insert(0, "0")
 
-        ttk.Label(main_frame, text="X End (sec):").grid(row=3, column=0, sticky="e", padx=(0, 5), pady=5)
+        ttk.Label(main_frame, text="t end (sec):").grid(row=3, column=0, sticky="e", padx=(0, 5), pady=5)
         self.xend_entry = ttk.Entry(main_frame, width=15)
         self.xend_entry.grid(row=3, column=1, sticky="w", pady=5)
         ttk.Label(main_frame, text="(leave empty for full duration)", font=('TkDefaultFont', 8, 'italic')).grid(row=3, column=2, sticky="w", padx=(5, 0))
