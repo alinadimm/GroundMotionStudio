@@ -18,7 +18,6 @@ Simply download and run the executable - all dependencies are included.
 
 Windows may show a security warning because this executable is not code-signed. This is **normal** for open-source tools. Here's how to run it safely:
 
-### Method 1: Download Executable (Windows)
 
 **Download:**
 1. Go to **[Releases](https://github.com/alinadimm/GroundMotionStudio/releases/latest)**
